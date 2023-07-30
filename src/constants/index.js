@@ -9,7 +9,10 @@ import {
   css,
   reactjs,
   redux,
+  thunder,
   tailwind,
+  huddle,
+  myreads,
   nodejs,
   mongodb,
   git,
@@ -18,11 +21,16 @@ import {
   meta,
   starbucks,
   tesla,
+  bicylce,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  Netflix,
+  fylo
+
+
 } from "../assets";
 
 export const navLinks = [
@@ -117,7 +125,7 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
+    company_name: "Upwork",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
@@ -129,21 +137,8 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Web Developer",
-    company_name: "Shopify",
+    company_name: "Upwork",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
@@ -156,7 +151,7 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
+    company_name: "Upwork",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
@@ -172,7 +167,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "He is a responsible to his work , He is a good designer i like his work, highly recommended :) thank u :)",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +175,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "He is responsible and good designer Recommended for everyonehope to work with again",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -197,6 +192,146 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Netflix clone with authentication",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Next js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next auth",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Google Authentication",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Netflix,
+    source_code_link:"https://netflix-clone-beta-lake.vercel.app/",
+  },
+  {
+    name: "my-reads",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: myreads,
+    source_code_link: "https://my-reads-udacity.vercel.app/",
+  },
+
+  {
+    name: "thunder Landing page",
+    description:
+      "Landing page thunder with a great ui",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: thunder,
+    source_code_link: "https://thunder-landing-page.vercel.app/",
+  },
+
+  {
+    name: "fylo Landing page",
+    description:
+      "Landing page Fylo with a great ui",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fylo,
+    source_code_link: "https://fylo-landing-page-nu-nine.vercel.app/",
+  },
+  {
+    name: "Bicycle Landing page",
+    description:
+      "Landing page Bicycle with a Amazing ui",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bicylce,
+    source_code_link: "https://bicycle-store.vercel.app/",
+  },
+  {
+    name: "huddle Landing page",
+    description:
+      "Landing page huddle with a Amazing ui",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: huddle,
+    source_code_link: "https://huddle-landing-page-zeta-five.vercel.app/",
+  },
   {
     name: "Car Rent",
     description:

@@ -29,14 +29,23 @@ import contact from './contact.svg'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Netflix from "./Netflix.jpg";
+import myreads from "./myreads.jpg";
+import thunder from "./thunder.jpg";
+import fylo from "./fylo.jpg";
+import bicylce from "./bicylce.jpg";
+import huddle from "./huddle.jpg";
 
 export {
   logo,
   backend,
   creator,
+  myreads,
+  fylo,
   mobile,
   contact,
   web,
+  thunder,
   github,
   menu,
   close,
@@ -61,4 +70,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  Netflix,
+  bicylce,
+  huddle
 };
